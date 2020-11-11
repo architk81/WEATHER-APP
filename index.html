@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_weather.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <title>Weather APP/ ALL IN ONE</title>
+</head>
+
+<body>
+
+    <div class="main-div">
+        <h1 class="brand">Welcome to Weather app</h1>
+        <div class="app-div">
+            <div class="searchbox">
+                <form>
+                    <input type="text" class="inputvalue" placeholder="Search any city">
+                </form>
+                <button class="search-btn">Search a city</button>
+            </div>
+            <div class="weatherbody">
+                <div class="location-details">
+                    <div class="city" id="city"></div>
+                    <div class="date" id = "date"></div>
+                </div>
+                <div class="weather-status">
+                    <div class="temp" id="temp"></div>
+                    <div class="climate" id = "climate">
+                    </div>
+                    <div class="minmax" id = "minmax">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="weather.js"></script>
+
+</body>
+
+</html>
